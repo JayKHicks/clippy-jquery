@@ -36,7 +36,7 @@
 					</li>
 					<li>
 						<input id="change_me" type="text" placeholder="Generate a dynamic clippy" value="" />
-						<span id="change_me_clippy"></span>
+						<span id="change_this"></span>
 					</li>
 				</ul>
 				
@@ -55,7 +55,7 @@
 		$(document).ready(function()
 		{
 			/* Clippy location (hosted on Github) */
-			var clippy_swf = "swf/clippy.swf";
+			var clippy_swf = "src/clippy.swf";
 
 			/* Get all of this boring stuff out of the way... */
 			$('#pastebin').click(function(evt)
@@ -70,9 +70,8 @@
 			
 			$('#change_me').keyup(function()
 			{
-				console.debug($(this).val());
-				$('#change_me_clippy').clippy({'text': $(this).val(), clippy_path: clippy_swf });
-			}).keyup();	
+				$('#change_this').html('').clippy({'text': $(this).val(), clippy_path: clippy_swf });
+			}).keyup();
 		});
 	</script>
 </body>
