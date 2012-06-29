@@ -453,12 +453,23 @@ body {
   height: 100%;
   font-size: 13px;
 }
+a {
+  color: #369;
+  text-decoration: underline;
+}
+a:hover {
+  color: #369;
+  text-decoration: none;
+}
+small {
+  font-size: 12px;
+}
 #container {
   border-radius: 3px 3px 3px 3px;
   -moz-border-radius: 3px 3px 3px 3px;
   -webkit-border-radius: 3px 3px 3px 3px;
   background-color: #f9f9f9;
-  margin: 10px auto;
+  margin: 10px auto 0px;
   padding: 10px;
   width: 780px;
   overflow: hidden;
@@ -497,4 +508,12 @@ body {
   top: 0;
   right: 0;
   border: 0;
+}
+#footer {
+  text-align: center;
+  width: 780px;
+  padding: 5px;
+  margin: 0px auto;
+  color: #fff;
+  font-size: 11px;
 }

@@ -49,10 +49,13 @@ textarea{overflow:auto;vertical-align:top;}
 table{border-collapse:collapse;border-spacing:0;}
 html{height:100%;}
 body{font-family:Helvetica,Arial,sans-serif;background-color:#8f99a3;height:100%;font-size:13px;}
-#container{border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;background-color:#f9f9f9;margin:10px auto;padding:10px;width:780px;overflow:hidden;}#container h1{margin:0px;}
+a{color:#369;text-decoration:underline;}a:hover{color:#369;text-decoration:none;}
+small{font-size:12px;}
+#container{border-radius:3px 3px 3px 3px;-moz-border-radius:3px 3px 3px 3px;-webkit-border-radius:3px 3px 3px 3px;background-color:#f9f9f9;margin:10px auto 0px;padding:10px;width:780px;overflow:hidden;}#container h1{margin:0px;}
 #lhs{float:left;width:460px;}#lhs ul{margin:1em 0px 2em;}#lhs ul li{margin:0.5em 0px;}
 #rhs{float:right;width:320px;}
 #pastebin{height:300px;width:290px;padding:5px;}
 #pastebin.empty{color:silver;}
 #change_me{width:70%;font-size:13px;}
 #fork_me{position:absolute;top:0;right:0;border:0;}
+#footer{text-align:center;width:780px;padding:5px;margin:0px auto;color:#fff;font-size:11px;}
