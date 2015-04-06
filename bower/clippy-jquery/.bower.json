@@ -1,6 +1,5 @@
 {
   "name": "clippy-jquery",
-  "version": "0.5.0",
   "authors": [
     "Jimmy Sawczuk <me@jimmysawczuk.com>"
   ],
@@ -21,14 +20,13 @@
     "test",
     "tests"
   ],
-  "_release": "0.5.0",
+  "_release": "release",
   "_resolution": {
-    "type": "version",
-    "tag": "v0.5.0",
-    "commit": "260f6f19176737e057f2fae1b35d325d574f71da"
+    "type": "tag",
+    "tag": "release",
+    "commit": "8defecc9b93cdc28d9bd785477f86f9d9f98c602"
   },
   "_source": "git://github.com/jimmysawczuk/clippy-jquery.git",
-  "_target": "~0.5.0",
-  "_originalSource": "clippy-jquery",
-  "_direct": true
+  "_target": "release",
+  "_originalSource": "clippy-jquery"
 }

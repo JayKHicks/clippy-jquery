@@ -15,6 +15,6 @@
   ],
   "dependencies": {
     "jquery": "~1.11.2",
-    "clippy-jquery": "~0.5.0"
+    "clippy-jquery": "release"
   }
 }
